@@ -8,7 +8,7 @@ Transform the state of your App and UIViewController's view-related notification
 DESC
 s.homepage         = "https://github.com/pixeldock/RxAppState"
 s.license          = 'MIT'
-s.author           = { "Jörn Schoppe" => "joern@pixeldock.com" }
+s.author           = { "Jörn Schoppe" => "joern@pixeldock.com" }
 s.source           = { :git => "https://github.com/pixeldock/RxAppState.git", :tag => s.version.to_s }
 s.social_media_url = 'https://twitter.com/pixeldock'
 
@@ -18,7 +18,7 @@ s.requires_arc = true
 s.source_files = 'Pod/Classes/**/*'
 
 s.frameworks = 'Foundation'
-s.dependency 'RxSwift', '~> 5.0'
-s.dependency 'RxCocoa', '~> 5.0'
+s.dependency 'RxSwift', '>=6.0.0.beta-1'
+s.dependency 'RxCocoa', '>=6.0.0.beta-1'
 
 end
